@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="C:\Users\kbsly\Documents\Coding\CSS\Style.css">
+
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <br>
+    <br>
+    <br>
+    <h1>My First Heading</h1>
+    <p>The first paragraph</p>
+    <br>
+    <br>
+    <hr>
+
+    <div class = "row">
+        <div class = "column">
+            <img src="C:\Users\kbsly\Documents\Coding\Photos\Site\canoe.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class = "column">
+            <img src="C:\Users\kbsly\Documents\Coding\Photos\Site\galaxy.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class = "column">
+            <img src="C:\Users\kbsly\Documents\Coding\Photos\Site\tree.jpeg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class = "column">
+            <img src="C:\Users\kbsly\Documents\Coding\Photos\Site\waterfall.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="C:\Users\kbsly\Documents\Coding\Photos\Site\canoe.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="C:\Users\kbsly\Documents\Coding\Photos\Site\galaxy.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="C:\Users\kbsly\Documents\Coding\Photos\Site\tree.jpeg" style="width:100%">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="C:\Users\kbsly\Documents\Coding\Photos\Site\waterfall.jpg" style="width:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+      
+          <div class="column">
+            <img class="demo cursor" src="C:\Users\kbsly\Documents\Coding\Photos\Site\canoe.jpg" style="width:100%" onclick="currentSlide(1)" alt="Canoeing on the river">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="C:\Users\kbsly\Documents\Coding\Photos\Site\galaxy.jpg" style="width:100%" onclick="currentSlide(2)" alt="Stellar galaxy">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="C:\Users\kbsly\Documents\Coding\Photos\Site\tree.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Country Tree">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="C:\Users\kbsly\Documents\Coding\Photos\Site\waterfall.jpg" style="width:100%" onclick="currentSlide(4)" alt="Waterfalls">
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+    <script src="Myfile.js"></script>
+</body>
+</html>
